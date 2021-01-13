@@ -1,0 +1,84 @@
+
+
+body {
+    font-family: 'Roboto',
+    sans-serif;
+}
+
+.logo {
+    max-width: 100px;
+    max-height: 50px;
+    
+    
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    /* background-color: #d9d9d9; */
+    
+    
+    
+}
+
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    font-family: 'Roboto',
+    sans-serif;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+
+
+li {
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+
+
+.menu-center, .menu-right, .menu-left {
+    flex: 1;
+    margin: auto;
+}
+
+.menu-left {
+    /* background-color: crimson; */
+    height: 100%;
+  
+}
+
+.menu-center {
+    /* background-color:blue; */
+    flex: 3;
+}
+
+.menu-right {
+    /* background-color: yellow; */
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.menu-right a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-right a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+
