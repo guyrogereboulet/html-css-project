@@ -71,7 +71,7 @@ a:hover {
 
     max-width: 100px;
     max-height: 50px;
-    margin-top: 15px;
+    margin-top: 5px;
 }
 
 .menu {
@@ -156,6 +156,7 @@ li {
     justify-content: center;
     align-items:center;
     margin:1rem;
+    flex-wrap: wrap;
 
 }
 
